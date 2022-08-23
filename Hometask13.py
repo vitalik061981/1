@@ -70,6 +70,7 @@ for i in nums:
     c = sum(b)
     d.append(c)
 
-
+d.sort()
 print(d)
+
 
