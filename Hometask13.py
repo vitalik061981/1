@@ -55,18 +55,21 @@ print(y(x))
 # In: 965 582 023 8 695210
 # Out: [5, 8, 15, 20, 23]
 
-# НЕ ДО КОНЦА сделано !!!!
-
 nums = [int(i) for i in input().split()]
 
+d = []
 for i in nums:
     b = []
+
 
     while i > 0:
         b.append(i % 10)
         i = i // 10
         b = b[::-1]
-    b = sum(b)
+
+    c = sum(b)
+    d.append(c)
 
 
-    print(b)
+print(d)
+
