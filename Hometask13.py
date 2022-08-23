@@ -55,6 +55,8 @@ print(y(x))
 # In: 965 582 023 8 695210
 # Out: [5, 8, 15, 20, 23]
 
+# НЕ ДО КОНЦА сделано !!!!
+
 nums = [int(i) for i in input().split()]
 
 for i in nums:
