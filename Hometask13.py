@@ -46,3 +46,25 @@ def y(x):
     return y
 
 print(y(x))
+
+# Hometask_13_1
+# Из полученного списка чисел
+# создайте список с суммами
+# этих чисел, отсортированными
+# по возрастанию
+# In: 965 582 023 8 695210
+# Out: [5, 8, 15, 20, 23]
+
+nums = [int(i) for i in input().split()]
+
+for i in nums:
+    b = []
+
+    while i > 0:
+        b.append(i % 10)
+        i = i // 10
+        b = b[::-1]
+    b = sum(b)
+
+
+    print(b)
