@@ -69,4 +69,26 @@ for i in nums:
 d.sort()
 print(d)
 
+# 2 ВАРИАНТ
+
+nums = [int(i) for i in input().split()]
+
+def lst1(nums):
+    d = []
+    for i in nums:
+        b = []
+
+        while i > 0:
+            b.append(i % 10)
+            i = i // 10
+
+        c = sum(b)
+        d.append(c)
+
+    d.sort()
+    print(d)
+
+lst1(nums)
+
+
 
