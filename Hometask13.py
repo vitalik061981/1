@@ -59,13 +59,15 @@ print(y(x))
 
 nums = [int(i) for i in input().split()]
 
+с = []
+
 for i in nums:
     b = []
 
     while i > 0:
         b.append(i % 10)
         i = i // 10
-        b = b[::-1]
+
     b = sum(b)
 
 
