@@ -10,7 +10,6 @@ nums = [int(i) for i in input().split()]
 
 def even(nums):
 
-
     a = []
 
     for i in nums:
@@ -18,7 +17,6 @@ def even(nums):
             i = i / 2
             a.append(int(i))
     return a
-
 
 print(even(nums))
 
@@ -60,7 +58,6 @@ nums = [int(i) for i in input().split()]
 d = []
 for i in nums:
     b = []
-
 
     while i > 0:
         b.append(i % 10)
