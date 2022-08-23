@@ -62,7 +62,6 @@ for i in nums:
     while i > 0:
         b.append(i % 10)
         i = i // 10
-        b = b[::-1]
 
     c = sum(b)
     d.append(c)
